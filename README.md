@@ -1,8 +1,8 @@
 # EditWorld: Simulating World Dynamics for Instruction-Following Image Editing
-
+### World Instruction *vs*. Traditional Instruction
 ![first_img](assets/first_img.jpg)
 
-Generated Results of EditWorld:
+### Generated Results of Our EditWorld:
 ![sample1](assets/generation_samples.jpg)
 
 ## Overview
