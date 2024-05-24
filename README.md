@@ -11,7 +11,7 @@ In this work, we introduce a new task namely world-instructed image editing, whi
 
 ## Planning 
   - [√] Providing full pipeline of text-to-image generation for EditWorld dataset.
-  - [ ] Releasing Testing dataset.
+  - [ ] Releasing evaluation dataset in next two weeks.
   - [ ] Releasing Checkpoints.
   - [ ] Releasing training and post-edit code.
 
@@ -79,10 +79,10 @@ datasets/
 
 ## Citation
 ```
-@inproceedings{yang2024crossmodal,
-  title={Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing},
-  author={Ling Yang and Zhilong Zhang and Zhaochen Yu and Jingwei Liu and Minkai Xu and Stefano Ermon and Bin CUI},
-  booktitle={International Conference on Learning Representations},
+@article{yang2024editworld,
+  title={EditWorld: Simulating World Dynamics for Instruction-Following Image Editing},
+  author={Yang, Ling and Zeng, Bohan and Liu, Jiaming and Li, Hong and Xu, Minghao and Zhang, Wentao and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:2405.14785},
   year={2024}
 }
 ```
