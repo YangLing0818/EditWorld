@@ -1,8 +1,8 @@
 # EditWorld: Simulating World Dynamics for Instruction-Following Image Editing
-Official repo of our [EditWorld](https://arxiv.org/abs/2405.14785).
+
 ## Overview
 
-In this work, we introduce a new task namely world-instructed image editing, which defines and categorizes the instructions grounded by various world scenarios. We curate a new image editing dataset with world instructions using a set of large pretrained models (e.g., GPT-3.5, Video-LLava and SDXL).
+This repository contains the official implementation of our [EditWorld](https://arxiv.org/abs/2405.14785). In this work, we introduce a new task namely **world-instructed image editing**, which defines and categorizes the instructions grounded by various world scenarios. We curate a new image editing dataset with world instructions using a set of large pretrained models (e.g., GPT-3.5, Video-LLava and SDXL). We also propose a new post-edit method for world-instructed image editing.
 
 ### World Instruction *vs*. Traditional Instruction
 ![first_img](assets/first_img.jpg)
