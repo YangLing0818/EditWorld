@@ -14,7 +14,7 @@ This repository contains the official implementation of our [EditWorld](https://
 
 ## Planning 
   - [√] Providing full pipeline of text-to-image generation for EditWorld dataset.
-  - [ ] Releasing evaluation dataset in next two weeks.
+  - [√] Releasing evaluation dataset.
   - [ ] Releasing Checkpoints.
   - [ ] Releasing training and post-edit code.
 
@@ -46,7 +46,9 @@ It is worth noting that `t2i_branch_base.py` is the fast and basic version for t
 
 Path `video_script` contains the code for downloading videos from the [InternVid](https://huggingface.co/datasets/OpenGVLab/InternVid).
 
-## Dataset structure
+## Dataset
+
+### Dataset structure
 
 To obtain the training dataset file `train.json`, utilize the script located at `tools/obtain_datasetjson.py`. The dataset is organized in the following structure:
 
@@ -79,6 +81,10 @@ datasets/
 │       ...
 └── train.json
 ```
+
+### Evaluation dataset link
+
+Our evaluation dataset is available at [editworld_test](https://drive.google.com/drive/u/1/folders/1ReuBMCNiCIVT-pC6YnM9Rv2irJUMFfh7).
 
 ## Citation
 ```
