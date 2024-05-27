@@ -86,6 +86,39 @@ datasets/
 
 Our evaluation dataset is available at [editworld_test](https://drive.google.com/drive/u/1/folders/1ReuBMCNiCIVT-pC6YnM9Rv2irJUMFfh7).
 
+
+## Quantitative Comparison of CLIP Score and MLLM Score
+
+IP2P: [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix); MB: [MagicBrush](https://github.com/OSU-NLP-Group/MagicBrush). Bold results are the best.
+
+### CLIP Score of Text-to-image Branch
+
+| Category           | IP2P     | MB       | Editworld | w/o post-edit   |
+|--------------------|----------|----------|-----------|-----------------|
+| Long-Term          | 0.2140   | 0.1870   | 0.2244    | **0.2294**      |
+| Physical-Trans     | 0.2186   | 0.2101   | 0.2385    | **0.2467**      |
+| Implicit-Logic     | 0.2390   | 0.2432   | **0.2542**| 0.2440        |
+| Story-Type         | 0.2063   | 0.2070   | **0.2534**| 0.2354        |
+| Real-to-Virtual    | 0.2285   | 0.2344   | **0.2524**| 0.2435        |
+
+### CLIP Score of Video Branch
+
+| Category           | IP2P     | MB       | Editworld | w/o post-edit   |
+|--------------------|----------|----------|-----------|-----------------|
+| Spatial-Trans      | 0.2175   | 0.1997   | **0.2420**| 0.2286        |
+| Physical-Trans     | 0.2315   | 0.2278   | 0.2467  | **0.2483**      |
+| Story-Type         | 0.2318 | 0.2262   | 0.2365    | **0.2399**      |
+| Exaggeration       | 0.2416   | 0.2328   | **0.2443**| 0.2433        |
+
+### MLLM Score of Both Branches
+
+| Category           | IP2P     | MB       | Editworld | w/o post-edit   |
+|--------------------|----------|----------|-----------|-----------------|
+| Text-to-image      | 0.8763   | 0.8455   | 0.8958  | **0.9060**      |
+| Video              | 0.9493   | 0.9715   | **0.9920**| 0.9891        |
+
+
+
 ## Citation
 ```
 @article{yang2024editworld,
