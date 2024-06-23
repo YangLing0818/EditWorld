@@ -1,5 +1,12 @@
 # EditWorld: Simulating World Dynamics for Instruction-Following Image Editing
 
+
+## News
+
+**June 23, 2024**
+- After consulting with the sponsors, we have released a training dataset that has not been manually rechecked. The dataset link is [EditWorld_data](https://huggingface.co/datasets/zbhpku/editworld_data_basicv0). Best of luck with your research!
+
+
 ## Overview
 
 This repository contains the official implementation of our [EditWorld](https://arxiv.org/abs/2405.14785). In this work, we introduce a new task namely **world-instructed image editing**, which defines and categorizes the instructions grounded by various world scenarios. We curate a new image editing dataset with world instructions using a set of large pretrained models (e.g., GPT-3.5, Video-LLava and SDXL). We also propose a new post-edit method for world-instructed image editing.
@@ -15,6 +22,7 @@ This repository contains the official implementation of our [EditWorld](https://
 ## Planning 
   - [√] Providing full pipeline of text-to-image generation for EditWorld dataset.
   - [√] Releasing evaluation dataset.
+  - [√] Releasing basic training dataset.
   - [ ] Releasing Checkpoints.
   - [ ] Releasing training and post-edit code.
 
