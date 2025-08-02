@@ -1,7 +1,9 @@
-# EditWorld: Simulating World Dynamics for Instruction-Following Image Editing
+# [ACM Multimedia 2025] EditWorld: Simulating World Dynamics for Instruction-Following Image Editing
 
 
 ## News
+**August 1, 2025** 
+- Our [EditWorld](https://arxiv.org/abs/2405.14785) is accepted by ACM Multimedia 2025 Datasets Track.
 
 **June 23, 2024**
 - After consulting with the sponsors, we have released a training dataset that has not been manually rechecked. The dataset link is [EditWorld_data](https://huggingface.co/datasets/zbhpku/editworld_data_basicv0). Best of luck with your research!
@@ -135,4 +137,5 @@ IP2P: [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix); MB: 
   journal={arXiv preprint arXiv:2405.14785},
   year={2024}
 }
+
 ```
